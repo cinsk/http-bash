@@ -12,7 +12,7 @@ Currently, it supports following HTTP requests; GET, HEAD, POST
 Running
 -------
 
-You need either `[tcpserver](http://cr.yp.to/ucspi-tcp/tcpserver.html)` or `[nc](http://nc110.sourceforge.net/)` (a.k.a., netcat).
+You need either [`tcpserver`](http://cr.yp.to/ucspi-tcp/tcpserver.html) or [`nc`](http://nc110.sourceforge.net/) (a.k.a., netcat).
 
 To support more than one connection, you'l need `tcpserver` rather than `nc`.  Note that some BSD version of `nc` is not supported.  (If `nc -h` does not shows `-e` option, your version is probably BSD one.)
 
